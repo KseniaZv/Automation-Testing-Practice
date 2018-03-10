@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bouquet>
+<flower name="Lily">
+<color>white</color>
+<feeling>admiration</feeling>
+<origin>Greece</origin>
+<symbol>innocence</symbol>
+<price>4$</price>
+</flower>
+<flower name="Rose">
+<color>red</color>
+<feeling>love</feeling>
+<origin>Rome</origin>
+<symbol>heart</symbol>
+<price>11$</price>
+</flower>
+<flower name="Tulip">
+<color>yellow</color>
+<feeling>happiness</feeling>
+<origin>Iran</origin>
+<symbol>beauty</symbol>
+<price>7$</price>
+</flower>
+<flower name="Chrysanthemum">
+<color>pink</color>
+<feeling>affection</feeling>
+<origin>Japan</origin>
+<symbol>well-being</symbol>
+<price>5$</price>
+</flower>
+<flower name="Peony">
+<color>crimson</color>
+<feeling>tenderness</feeling>
+<origin>China</origin>
+<symbol>passion</symbol>
+<price>9$</price>
+</flower>
+<flower name="Iris">
+<color>violet</color>
+<feeling>sincerity</feeling>
+<origin>Greece</origin>
+<symbol>friendship</symbol>
+<price>11$</price>
+</flower>
+<flower name="Lilac">
+<color>purple</color>
+<feeling>reciprocity</feeling>
+<origin>Balkans</origin>
+<symbol>first love</symbol>
+<price>8$</price>
+</flower>
+</bouquet>
