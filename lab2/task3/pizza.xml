@@ -1,0 +1,20 @@
+<task3.Pizza>
+  <name>Capricciosa</name>
+  <weight>350</weight>
+  <cooking>
+    <number>6</number>
+    <currency>dollar</currency>
+  </cooking>
+  <delivery>
+    <number>1</number>
+    <currency>dollar</currency>
+  </delivery>
+  <ingredients>
+    <string>slices of ham</string>
+    <string>artichoke</string>
+    <string>basil</string>
+    <string>black olives</string>
+    <string>tomato sauce</string>
+    <string>baked pizza crust</string>
+  </ingredients>
+</task3.Pizza>
