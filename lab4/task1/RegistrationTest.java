@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -92,6 +93,7 @@ public class RegistrationTest {
         confirmPassword.sendKeys("Z1x2C3v4B5");
         submitButton.click();
 
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"post-49\"]/div/p")).isDisplayed());
         Thread.sleep(10000);
     }
 
@@ -122,6 +124,7 @@ public class RegistrationTest {
         confirmPassword.sendKeys("123erty456");
         submitButton.click();
 
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"post-49\"]/div/p")).isDisplayed());
         Thread.sleep(10000);
     }
 
@@ -153,8 +156,10 @@ public class RegistrationTest {
         confirmPassword.sendKeys("123ertyOIU");
         submitButton.click();
 
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"post-49\"]/div/p")).isDisplayed());
         Thread.sleep(10000);
     }
+
     @AfterTest
     public void close() {
         driver.close();
